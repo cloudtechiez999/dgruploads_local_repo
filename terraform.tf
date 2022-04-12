@@ -9,3 +9,8 @@ resource "aws_instance" "instance_example" {
   image_id: "abc123"
   instance_type: "t2.micro"
 }
+resource "aws_instance" "instance_example" {
+  image_id: "abc123"
+  instance_type: "t2.micro"
+}
+
